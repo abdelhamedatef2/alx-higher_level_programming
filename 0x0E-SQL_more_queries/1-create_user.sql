@@ -1,7 +1,5 @@
--- create user user_0d_1 with all privileges.
-CREATE USER
-    IF NOT EXISTS 'user_0d_1'@'localhost'
-    IDENTIFIED BY 'user_0d_1_pwd';
-GRANT ALL PRIVILEGES
-   ON *.*
-   TO 'user_0d_1'@'localhost';
+-- create new user in mysql
+-- create new user in mysql
+CREATE USER IF NOT EXISTS 'user_0d_1'@'localhost' IDENTIFIED BY 'user_0d_1_pwd';
+-- allowprivilages
+GRANT ALL PRIVILEGES ON *.* TO 'user_0d_1'@'localhost';
