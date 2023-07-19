@@ -1,10 +1,12 @@
 # 0x0E. SQL - More queries
 
-<img src="[https://s3.amazonaws.com/intranet-projects-files/concepts/74/hbnb_step2.png](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/3/bc2575fee3303b731031.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230719%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230719T043954Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=8054a431c0051603c0ba60e02ff6d4d7a15eb22df6f3201203e28c5f96a960d4)" width="1200" height="280">
+![66988091](https://github.com/abdelhamedatef2/alx-higher_level_programming/assets/118136210/1c34759f-cea9-445a-9996-cf6b5167f742)
+
+
 
 ## Description
 This project covers advanced SQL topics and query techniques. It includes tasks related to managing users and privileges, creating databases and tables, and retrieving data from multiple tables using joins and subqueries.
-
+![bc2575fee3303b731031](https://github.com/abdelhamedatef2/alx-higher_level_programming/assets/118136210/22461404-ebcf-427f-92d9-1395899e3103)
 ## Learning Objectives
 By the end of this project, you should be able to:
 
