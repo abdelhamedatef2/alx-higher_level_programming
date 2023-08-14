@@ -13,3 +13,4 @@ if (num) {
   }
 } else {
   console.log('Missing size');
+}
