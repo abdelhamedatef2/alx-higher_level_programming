@@ -20,12 +20,9 @@ class Rectangle {
         console.log(x);
       }
     }
-  rotate(){
-    let temp;
-    temp=this.width;
-    this.width=this.height;
-    this.height=temp;
-}
+   rotate () {
+    [this.width, this.height] = [this.height, this.width];
+  }
 double(){
     this.width*=2;
     this.height*=2;
