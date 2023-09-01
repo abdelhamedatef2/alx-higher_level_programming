@@ -4,15 +4,11 @@ script take URL and email, send POST request to
 the passed URL with email as parameter, and
 display body of response
 """
-from urllib import request, parse
-import sys
-
-
 if __name__ == "__main__":
-    values = {'email': sys.argv[2]}
-    data = parse.urlencode(values)
-    data = data.encode('ascii')
-    req = request.Request(sys.argv[1], data)
-    with request.urlopen(req) as response:
-        body = response.read()
-        print(body.decode('utf-8'))
+    from urllib import request, parse
+    from sys import argv
+
+    email = parse.urlencode({"email": argv[2]}).encode()
+    req = request.Request(argv[1], email)
+    with request.urlopen(req) as resp:
+        print(resp.read().decode("utf-8"))
