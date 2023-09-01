@@ -4,9 +4,6 @@ script take URL and email, send POST request to
 the passed URL with email as parameter, and
 display body of response
 """
-from urllib import request, parse
-import sys
-
 if __name__ == "__main__":
     from urllib import request, parse
     from sys import argv
